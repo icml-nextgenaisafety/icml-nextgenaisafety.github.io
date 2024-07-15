@@ -106,7 +106,7 @@
     <p class="lead"><a href="https://docs.google.com/document/d/1EC__CB5zwV_EdPUpOm7ik43jtc8lmz_xDeZAQ8ihirg">Call for
         Papers</a></p>
     <p class="lead">Camera-ready deadline July 8 AoE on
-      <a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/NextGenAISafety">OpenReview</a>
+      <a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/NextGenAISafety">OpenReview</a>. Poster instructions from <a href="https://icml.cc/Conferences/2024/PosterInstructions">ICML</a>.
     </p>
     <p class="lead">Contact info: next-gen-ai-safety [at] googlegroups [dot] com</p>
   </section>
@@ -175,6 +175,7 @@
 
 
 
+
   <!-- Call for papers -->
   <section class="py-5">
     <div class="container lead" id="call">
@@ -214,6 +215,12 @@
             href="https://openreview.net/group?id=ICML.cc/2024/Workshop/NextGenAISafety">OpenReview</a> (opens May
           22nd).
         </li>
+        <li>
+          <strong>Poster instructions</strong> can be found <a href="https://icml.cc/Conferences/2024/PosterInstructions">here</a>.
+         </li>
+         <li>
+           <strong>Accepted oral talks</strong> should be no more than 8 minutes in length.
+         </li>
 
       </ul>
       <!-- Submit to OpenReview  -->
@@ -234,6 +241,217 @@
                   camera-ready version of the paper, authors can add one extra page to the main body) <br /><br />
       <strong>July 26: </strong> Workshop!
     </div>
+  </section>
+
+
+  <!-- Schedule -->
+  <section class="py-5">
+    <div class="container" style="max-width: 600px;" id="schedule">
+      <h2 class="text-center mb-4">Schedule</h2>
+      <p class="lead">
+        The workshop will be held on Friday, July 26, 2024, in the Messe Wien Exhibition Congress Center, Hall A1. All conference schedule times are in Central European Summer Time (Vienna local time).
+      </p>
+
+
+    </div>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conference Schedule</title>
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+          }
+
+          .schedule {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+
+          .schedule-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+          }
+
+          .additional-content {
+            display: none;
+            padding: 10px;
+            margin-top: 5px;
+            border-top: 1px solid #eee;
+          }
+
+          .toggle-indicator {
+            display: inline-block;
+            margin-left: 10px;
+            transition: transform 0.3s ease;
+          }
+
+          .toggle-indicator::after {
+            content: '\25BC';
+            /* Down-pointing triangle */
+          }
+
+          .schedule-item.open .toggle-indicator::after {
+            content: '\25B2';
+            /* Up-pointing triangle */
+          }
+
+          .time {
+            font-weight: bold;
+            min-width: 150px;
+            /* Adjust the width as needed */
+          }
+
+          .event {
+            flex-grow: 1;
+            padding-left: 10px;
+          }
+
+          .event-title {
+            font-weight: bold;
+          }
+
+          ul {
+            list-style-type: none;
+            padding-left: 20px;
+            margin: 0;
+          }
+
+          ul li {
+            margin-bottom: 5px;
+          }
+        </style>
+      </head>
+
+      <body>
+        <div class="schedule">
+          <div class="schedule-item">
+            <div class="time">8:30 AM - 9:00 AM</div>
+            <div class="event">Welcome and Opening Remarks</div>
+          </div>
+          <div class="schedule-item" onclick="toggleContent(this)">
+            <div class="time">9:00 AM - 9:45 AM</div>
+            <div class="event">
+              <span class="event-title">Invited Talk #1</span>
+              <span class="toggle-indicator"></span>
+            </div>
+          </div>
+          <div class="additional-content">
+            <b>Abstract:</b> TBC
+          </div>
+
+          <div class="schedule-item" onclick="toggleContent(this)">
+            <div class="time">9:45 AM - 10:30 AM</div>
+            <div class="event">
+              <span class="event-title">Invited Talk #2</span>
+              <span class="toggle-indicator"></span>
+            </div>
+          </div>
+          <div class="additional-content">
+            <b>Abstract:</b> TBC
+          </div>
+
+          <div class="schedule-item" onclick="toggleContent(this)">
+            <div class="time">10:30 AM - 11:00 AM</div>
+            <div class="event">
+              <span class="event-title">Oral Session #1</span>
+              <span class="toggle-indicator"></span>
+            </div>
+          </div>
+          <div class="additional-content">
+            <b>Papers:</b> TBC
+          </div>
+
+          <div class="schedule-item" onclick="toggleContent(this)">
+            <div class="time">11:00 AM - 11:45 AM</div>
+            <div class="event">
+              <span class="event-title">Invited Talk #3</span>
+              <span class="toggle-indicator"></span>
+            </div>
+          </div>
+          <div class="additional-content">
+            <b>Abstract:</b> TBC
+          </div>
+
+          <div class="schedule-item">
+            <div class="time">11:45 AM - 12:30 PM</div>
+            <div class="event">Panel</div>
+          </div>
+
+          <div class="schedule-item">
+            <div class="time">12:30 PM - 2:00 PM</div>
+            <div class="event">Lunch, Setup for poster session #1</div>
+          </div>
+
+          <div class="schedule-item">
+            <div class="time">2:00 PM - 3:00 PM</div>
+            <div class="event">Poster Session #1</div>
+          </div>
+
+          <div class="schedule-item" onclick="toggleContent(this)">
+            <div class="time">3:00 PM - 3:30 PM</div>
+            <div class="event">
+              <span class="event-title">Oral Session #2</span>
+              <span class="toggle-indicator"></span>
+            </div>
+          </div>
+          <div class="additional-content">
+            <b>Papers:</b> TBC
+          </div>
+
+          <div class="schedule-item">
+            <div class="time">3:30 PM - 4:00 PM</div>
+            <div class="event">Coffee break, Setup for poster session #2</div>
+          </div>
+
+          <div class="schedule-item">
+            <div class="time">4:00 PM - 5:00 PM</div>
+            <div class="event">Poster Session #2</div>
+          </div>
+
+          <div class="schedule-item" onclick="toggleContent(this)">
+            <div class="time">5:00 PM - 5:45 PM</div>
+            <div class="event">
+              <span class="event-title">Invited Talk #4</span>
+              <span class="toggle-indicator"></span>
+            </div>
+          </div>
+          <div class="additional-content">
+            <b>Abstract:</b> TBC
+          </div>
+
+          <div class="schedule-item">
+            <div class="time">5:45 PM - 6:00 PM</div>
+            <div class="event">Closing Remarks</div>
+          </div>
+        </div>
+
+        <script>
+          function toggleContent(element) {
+            var content = element.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+              element.classList.remove('open');
+            } else {
+              content.style.display = "block";
+              element.classList.add('open');
+            }
+          }
+        </script>
+      </body>
+
   </section>
 
 
@@ -334,14 +552,7 @@
     </div>
   </section>
 
-  <section class="py-5">
-    <div class="container" style="max-width: 600px;" id="schedule">
-      <h2 class="text-center mb-4">Schedule</h2>
-      <p class="lead">
-        The workshop will be held on Friday, July 26, 2024. The full schedule will be posted here closer to the date.
-      </p>
-    </div>
-  </section>
+
 
   <!-- Program Committee 
   <section class="py-5 bg-light">
